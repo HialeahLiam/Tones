@@ -1,15 +1,11 @@
 import express from 'express'
 const app = express();
 
-const PORT = 8001;
+const PORT = process.env.NODE_ENV == "production" ? "https://tonesapp.herokuapp.com" : 8001;
 
-// DEV
-// app.listen(PORT, () => {
-//     console.log(`Listening on port ${PORT}`)
-// })
-
-//DEPLOY
-app.listen()
+app.listen(PORT, () => {
+    console.log(`Listening on port ${PORT}`)
+})
 
 app.use(express.static('public'))
 
