@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "tones",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HialeahLiam/Tones.git"
+  },
+  "author": "Liam Idrovo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HialeahLiam/Tones/issues"
+  },
+  "homepage": "https://github.com/HialeahLiam/Tones#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
