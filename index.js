@@ -3,9 +3,13 @@ const app = express();
 
 const PORT = 8001;
 
-app.listen(PORT, () => {
-    console.log(`Listening on port ${PORT}`)
-})
+// DEV
+// app.listen(PORT, () => {
+//     console.log(`Listening on port ${PORT}`)
+// })
+
+//DEPLOY
+app.listen()
 
 app.use(express.static('public'))
 
